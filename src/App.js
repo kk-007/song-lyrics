@@ -1,24 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
+import React,{useState} from 'react';
 import './App.css';
-
+import Search from './components/search/Search';
+import Result from './components/result/Result';
 function App() {
+  const [lyrics,setLyrics] = useState({});
+  let displayLyrics = (artist,title)=>{
+    // console.log(artist,title);
+    setLyrics({artist,title});
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Search displayLyrics={displayLyrics}/>
+      <Result lyrics={lyrics}/>
     </div>
   );
 }
