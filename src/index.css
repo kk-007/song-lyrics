@@ -49,9 +49,12 @@ ul li > div {
 	padding: 1em;
 	width: 100%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: center;
 	border: 1px solid #1d0029;
+}
+.right {
+	flex: 1;
 }
 .artist-pic {
 	width: 15%;
@@ -80,6 +83,9 @@ ul li > div {
 	.logo {
 		width: 50%;
 	}
+	.artist-pic {
+		width: 25%;
+	}
 	input[type="text"] {
 		width: 60%;
 	}
@@ -90,7 +96,7 @@ ul li > div {
 		width: 75%;
 	}
 	p {
-		font-size: .7em;
+		font-size: .9em;
 	}
 	.btn {
 		width: 35%;
