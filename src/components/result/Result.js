@@ -20,10 +20,14 @@ function Result(props) {
 		[ props.lyrics.title, props.lyrics.artist ]
 	);
 	return (
-		<div>
-			{props.lyrics.title ? props.lyrics.title + '-' + props.lyrics.artist : ''}
-			<br />
-			{props.lyrics.title ? lyrics : ''}
+		<div className="lyrics">
+			{props.lyrics.title && (
+				<h3 className="title">
+					{props.lyrics.title}
+					<span>-{props.lyrics.artist}</span>
+				</h3>
+			)}
+			{props.lyrics.title && lyrics}
 		</div>
 	);
 }

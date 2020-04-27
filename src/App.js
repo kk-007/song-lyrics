@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import './App.css';
 import Search from './components/search/Search';
-import Result from './components/result/Result';
+
 function App() {
 	const [ lyrics, setLyrics ] = useState({});
 	let displayLyrics = (artist, title) => {
@@ -9,13 +8,8 @@ function App() {
 		setLyrics({ artist, title });
 	};
 	return (
-		<div className="container">
-			<div>
-				<Search displayLyrics={displayLyrics} />
-			</div>
-			<div>
-				<Result lyrics={lyrics} />
-			</div>
+		<div>
+			<Search displayLyrics={displayLyrics} lyrics={lyrics} />
 		</div>
 	);
 }
