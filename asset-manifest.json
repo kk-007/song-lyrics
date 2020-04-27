@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/song-lyrics/static/css/main.15f5a55c.chunk.css",
+    "main.js": "/song-lyrics/static/js/main.68a2fbe5.chunk.js",
+    "main.js.map": "/song-lyrics/static/js/main.68a2fbe5.chunk.js.map",
+    "runtime-main.js": "/song-lyrics/static/js/runtime-main.ee22e8be.js",
+    "runtime-main.js.map": "/song-lyrics/static/js/runtime-main.ee22e8be.js.map",
+    "static/js/2.92c43ee1.chunk.js": "/song-lyrics/static/js/2.92c43ee1.chunk.js",
+    "static/js/2.92c43ee1.chunk.js.map": "/song-lyrics/static/js/2.92c43ee1.chunk.js.map",
+    "index.html": "/song-lyrics/index.html",
+    "precache-manifest.1e74880646c5ee6cbad44a20e3893e60.js": "/song-lyrics/precache-manifest.1e74880646c5ee6cbad44a20e3893e60.js",
+    "service-worker.js": "/song-lyrics/service-worker.js",
+    "static/css/main.15f5a55c.chunk.css.map": "/song-lyrics/static/css/main.15f5a55c.chunk.css.map",
+    "static/js/2.92c43ee1.chunk.js.LICENSE.txt": "/song-lyrics/static/js/2.92c43ee1.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/song-lyrics/static/media/logo.70ff2694.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee22e8be.js",
+    "static/js/2.92c43ee1.chunk.js",
+    "static/css/main.15f5a55c.chunk.css",
+    "static/js/main.68a2fbe5.chunk.js"
+  ]
+}
